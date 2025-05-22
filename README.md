@@ -1,2 +1,1 @@
-# alu-shell
-This directory contains practices from shell assignments
+basic readme
