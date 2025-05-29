@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r l; do printf '%s' "${l:0:1}"; done; echo
+while IFS= read -r line; do printf '%s' "${line:0:1}"; done < "${1:-/dev/stdin}"; echo
