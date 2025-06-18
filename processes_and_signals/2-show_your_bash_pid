@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script to allow easy access to get PID of bash process
+
+ps -auxf | grep "bash"
